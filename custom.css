@@ -1,29 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 :root {
-    --primary-blue: #136AA9;
+    --lightpurple: #e6eaff;
     --lightgray: #f5f5f5;
     --darkgray: #b9b9b9;
     --paleblue: #fcfdff;
 }
 
 body {
-   font-family: 'Raleway', sans-serif;
-   background-color: var(--lightgray);
+background-color:silver;
+background-image: 
+radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+background-size:100px 50px;
+   font-family: 'Raleway', centru gothic;
+   background-color: var(--lightpurple);
 }
 
 .card-header {
-    background-color: var(--paleblue);
+    background-color: var(--lightpurple);
 }
 
 .btn-primary {
-    background-color: var(--primary-blue);
+    background-color: var(--lightpurple);
     border-radius: 8px;
 }
 
 .card {
      overflow: hidden;
-     box-shadow: 0 3px 6px 0 var(--darkgray), 0 3px 12px 0 var(--darkgray);
+     box-shadow: 0 3px 6px 0 var(--lightpurple), 0 3px 12px 0 var(--lightpurple);
      border-radius: 12px;
 }
 
